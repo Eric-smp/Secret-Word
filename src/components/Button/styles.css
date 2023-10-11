@@ -1,0 +1,9 @@
+button{
+    font-size: 1.5rem;
+    background-color: transparent;
+    padding: 0.6rem 2.5rem;
+    border: 2px solid #ffff;
+    border-radius: 15px;
+    color: #ffff;
+    backdrop-filter: blur(50px);
+}

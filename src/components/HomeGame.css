@@ -1,0 +1,19 @@
+.homeGame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeGame h1{
+    font-size: 3rem;
+}
+
+
+.homeGame button:hover{
+    color: #000;
+    background-color: white;
+    transition: 1s;
+    transform-box: content-box;
+    transition-timing-function: ease-in;
+}
