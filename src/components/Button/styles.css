@@ -2,8 +2,16 @@ button{
     font-size: 1.5rem;
     background-color: transparent;
     padding: 0.6rem 2.5rem;
-    border: 2px solid #ffff;
-    border-radius: 15px;
+    border: 0.125rem solid #ffff;
+    border-radius: 0.9375rem;
     color: #ffff;
     backdrop-filter: blur(50px);
+    cursor: pointer;
+}
+button:hover{
+    color:	#0000FF;
+    background-color: white;
+    transition: 1s;
+    transform-box: content-box;
+    transition-timing-function: ease-in;
 }
