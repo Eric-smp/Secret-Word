@@ -44,10 +44,10 @@ const StartGame = ({verifyLetter, pickedWord, pickedCategory, letters, guesses, 
       </div>
 
       <div className="letterUtilizada">
-        <p>Letra já utilizadas:</p>
-       {wordLetters.map((letters, i)=> (
+        <p>Letra já utilizadas: {wordLetters.map((letters, i)=> (
         <span key={i}>{letters},</span>
-       ))}
+       ))}</p>
+       
       </div>
       {/* <ButtonPage onClick={verifyLetter} name={"Clique aqui!!"}/> */}
     </div>

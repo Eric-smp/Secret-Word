@@ -48,12 +48,8 @@ function App() {
     const {categoriasRandom, word} = pickeWordAndCategory()
 
     const wordLetters = word.split("")
-    const wordLetterLowerCase = wordLetters
-
-    console.log(wordLetterLowerCase)
 
 
-    console.log(categoriasRandom, word)
 
     //set fill
     setPickedWord(word)
@@ -103,13 +99,12 @@ function App() {
     const uniqueLetters = [...new Set(letters)]
 
     if(guessedLetter.length === uniqueLetters.length){
-      setScore((actualScore)=> actualScore += 100)
-
-      startGame()
+      startGame() 
+      setScore((actualScore)=> actualScore + 100 )
+      
     }
 
 
-    console.log("UniqueLetter", uniqueLetters)
       
   }, [guessedLetter, letters, startGame])
 

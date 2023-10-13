@@ -1,6 +1,6 @@
 export const wordList = {
-    escola: ['cadeira', 'borracha', 'caderno', 'mochila', 'apagador'],
-    computador: ['mouse', 'teclado', 'software', 'monitor' ],
-    fruta: ['banana', 'abacaxi', 'melancia', 'abacate'],
-    marcaCarro: ['ferrari', 'fiat', 'mercedes', 'porsche']
+    Escola: ['cadeira', 'borracha', 'caderno', 'mochila', 'apagador'],
+    Computador: ['mouse', 'teclado', 'software', 'monitor' ],
+    Fruta: ['banana', 'abacaxi', 'melancia', 'abacate'],
+    Carro: ['ferrari', 'fiat', 'mercedes', 'porsche']
 }
